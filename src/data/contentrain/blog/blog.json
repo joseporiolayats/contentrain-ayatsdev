@@ -1,0 +1,114 @@
+[
+  {
+    "description": "There's a simple secret to building a faster website — just ship less.",
+    "content": "Unfortunately, modern web development has been trending in the opposite direction—towards more. More JavaScript, more features, more moving parts, and ultimately more complexity needed to keep it all running smoothly.\n\nToday I'm excited to publicly share Astro: a new kind of static site builder that delivers lightning-fast performance with a modern developer experience. To design Astro, we borrowed the best parts of our favorite tools and then added a few innovations of our own, including:\n\n- Bring Your Own Framework (BYOF): Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.\n- 100% Static HTML, No JS: Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.\n- On-Demand Components: Need some JS? Astro can automatically hydrate interactive components when they become visible on the page. If the user never sees it, they never load it.\n- Fully-Featured: Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any of your favorite npm packages.\n- SEO Enabled: Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication.\n\n## H1 is good\n\n### H2 is good too\n\n> links are better\n\n[I know](they-are-better)\n\nThis post marks the first public beta release of Astro. Missing features and bugs are still to be expected at this early stage. There are still some months to go before an official 1.0 release, but there are already several fast sites built with Astro in production today. We would love your early feedback as we move towards a v1.0 release later this year.\n\n> To learn more about Astro and start building your first site, check out the project README.",
+    "slug": "introducing-astro",
+    "ID": "7576f29f-d144-432f-b58b-4ad7897d01f4",
+    "tags": [
+      "astro",
+      "jam-stack"
+    ],
+    "title": "Introducing Astro - Ship Less JavaScript",
+    "layout": "$/layouts/post.astro",
+    "date": "2021-06-08",
+    "image": "https://images.unsplash.com/photo-1589409514187-c21d14df0d04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
+    "author": "Fred K. Schott",
+    "authorTwitter": "FredKSchott",
+    "category": "design",
+    "categories": [
+      "design",
+      "qwe"
+    ],
+    "createdAt": 1661349256850,
+    "updatedAt": 1661349319464
+  },
+  {
+    "description": "Render HTML pages on the server, and inject placeholders or slots around highly dynamic regions.",
+    "content": "https://jasonformat.com/islands-architecture/",
+    "slug": "islands-architecture-2",
+    "ID": "52db9e9f-1541-4975-9540-56e4bc688c56",
+    "tags": [
+      "astro",
+      "jam-stack",
+      "architecture",
+      "front-end"
+    ],
+    "title": "Islands Architecture for light-weight FEs",
+    "layout": "$/layouts/post.astro",
+    "date": "2021-06-06",
+    "image": "https://images.unsplash.com/photo-1502085671122-2d218cd434e6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1698&q=80",
+    "author": "Jason Miller",
+    "authorTwitter": "_developit",
+    "category": "development",
+    "categories": [
+      "development"
+    ],
+    "createdAt": 1661349457056,
+    "updatedAt": 1661349517779
+  },
+  {
+    "description": "Render HTML pages on the server, and inject placeholders or slots around highly dynamic regions.",
+    "content": "https://jasonformat.com/islands-architecture/\n",
+    "slug": "islands-architecture",
+    "ID": "52d43d60-87ee-403d-8e83-ebe6b015dfbf",
+    "tags": [
+      "astro",
+      "jam-stack",
+      "architecture",
+      "front-end"
+    ],
+    "title": "Islands Architecture",
+    "layout": "$/layouts/post.astro",
+    "date": "2021-05-08",
+    "image": "https://images.unsplash.com/photo-1502085671122-2d218cd434e6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1698&q=80",
+    "author": "Jason Miller",
+    "authorTwitter": "_developit",
+    "category": "development",
+    "categories": [],
+    "createdAt": 1661349632194
+  },
+  {
+    "description": "There is a sweet spot of React - in moderately interactive interfaces..",
+    "content": "https://macwright.com/2020/05/10/spa-fatigue.html",
+    "slug": "spa-fatigue",
+    "ID": "e63a9d85-786d-4444-9d3c-02aea647a1fa",
+    "tags": [
+      "architecture",
+      "front-end",
+      "spa"
+    ],
+    "title": "Second-guessing the modern web",
+    "layout": "$/layouts/post.astro",
+    "date": "2021-04-10",
+    "image": "https://images.unsplash.com/photo-1501772418-b33899635bca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
+    "author": "Tom MacWright",
+    "authorTwitter": "tmcw",
+    "category": "design",
+    "categories": [],
+    "createdAt": 1661349796278
+  },
+  {
+    "description": "Git-based Headless CMS and API-first Headless CMS are Headless CMS that solves the problem pointed out in traditional CMS",
+    "content": "# Git-based Headless CMS vs API-first Headless CMS\n\nA content management system is a software tool that helps users create and modify content on a typical website without any technical knowledge. This means users can build a website from scratch without needing to write the code from scratch, while the CMS manages the underlying infrastructure for you. Examples of these content management tools that are very popular include WordPress, Joomla, Drupal, Kirby, Craftcms, and more.\n\nFurthermore, there are two types of CMS :\n\n\n- Traditional CMS\n- Headless CMS\n\n## What is Traditional CMS?\n\nTraditional CMS was one of the first CMS that was introduced decades ago of which WordPress was popular and powers about 39.5% of the web. WordPress was used to power many businesses when it was introduced as users did not need any form of technical knowledge to develop websites and modify content.\nIn the long run, there was a need for more customization of traditional CMS as they are monolithic which means it had both the frontend and backend coupled together which makes it difficult to customize as eliminating technical knowledge and application was its aim.\nTraditional CMS also had other limitations that included poor reliability, poor security, poor performance, inability to scale to other platforms, and costs.\n\nThe advent of  headless CMS was the solution to these previously stated limitations with the traditional cms\n\n\n## What is Headless CMS?\n\nA headless CMS  is a content management system that has its backend decoupled from the frontend and content is delivered to the frontend over an API.\nHeadless CMS gives you the ability to choose the appropriate frontend for your project while the CMS handles all underlying infrastructure.\n\nThere are two types of headless CMS which include:\n\n\n- API-First CMS: An API-based CMS is “Headless,” meaning it removes the rendering portion of a traditional CMS and replaces it with an API. \n\n\n- Git-based CMS: A git-based CMS distinctively uses a Git repository and works with files stored in the repository to manage content.\n\n\n\n## API-first CMS\n\n![api](https://imagedelivery.net/yx26LyQGM_miwnGU8RnEaw/39f13deb-4cd4-4b8b-13c1-14f5b3540800/public)\n\nThe API-driven CMS allows users to seamlessly create awesome content like media, relational tables, authentication, and many other features held by the backend. \nThe API-based CMS involves critical planning and layout to be able to draw out what content categories and content fields you need for your software as it is dynamically written. This means API-based CMSes are really confusing if you are not experienced using one.\n\nFurthermore, more frontend technologies have evolved than backend stacks. By separating the frontend from the backend, both ends are built completely independent of the other, what's more, intriguing is that the backend can be used for any platform using any stack without issues. This means platforms ranging from desktops, billboards, mobile phones, wristwatches and more can be powered by one backend.\n\n\n## Pros of the API-first CMS\n\n- Easy to use content across multiple front ends\n    The API-driven CMS makes it completely easy to use the content on different clients seamlessly.\n- It is Ideal for dynamic sites\n    Dynamic sites can be developed as our frontend can usually work with API.\n- Easily build your own CMS\n    For very specific designs, developers can leverage the API to build their own CMS.\n    \n## Cons of the API-first CMS\n- Storage limits\n- Fewer formatting options\n- Very dependent on developers\n\n## Git-based Headless CMS\n\n![git](https://imagedelivery.net/yx26LyQGM_miwnGU8RnEaw/54d64b95-ddd9-41df-c625-9926a2195600/public)\n\n\nGit-based CMSes like Contentrain are built on git version control systems which gives a very familiar sense to developers, as they are conversant using GitHub, GitLab, and other products built, on the version control system. The beauty of this type of CMS is that your work and history of change are stored in a repository which makes it easy to track issues if they arise. With git-based CMS, you can migrate from one git-based CMS to another if the previous one does not meet your requirements,  seamlessly.\nYour content is managed through git functionalities and/or git powered editors right inside your CMS, then on selected changes, the CMS processes new or updated content and immediately builds your frontend which could either be web, and this is done with the git integration using large service providers like GitHub and GitLab.\n\nYou do not need to store your data in databases and access it through APIs. In Git-based CMS, you store your content in text-based files practically Markdown, HTML, CSV, and YAML.\n\nEnterprises have to pay huge amounts of money for practically storing large data and securing them which even the API-based cms did not solve but with the git-based cms, you can use third-party storage like AWS S3 bucket to store your data which makes your sites even more secure as even your backend does not have a database completely coupled to it and securing it is easier by simply putting the cms behind a firewall since it only communicates with your repository.\n\nThe frontend as well is completely bulletproof because they are static and do not have any affiliation with the backend, plugins, or dynamic server software which can be open to code injection for hacks.\n\nContentrain infrastructure is completely decentralized distributed which makes security much easier as you only get to focus more resources on the communication points between the stacks.\nOne compromised stack or structure does not affect the other.\n\n\n## Pros of  Git-based Headless CMS\n- **Proprietary lock-in**\n\n    For git-backed cms, you are not tied to any vendor, and your content is not stored on git-backed cms. You can remove the current cms without issues and switch to anyone without issues.\n    \n- **Automated backup/versioning**\n\n     Your content is on git, all you have to deal with is your history, and your contents are automatically backed.\n    \n- **It is Simple to setup**\n\n    A git-based stack is easy to set up, so no need to download dependencies for the stack required.\n\n## Cons of Git-based CMS\n - It is Harder to use the content for multiple other frontends.\n    To use other platforms, the content has to be processed in a different way which means a lot of overhead.\n- Not a good fit for dynamic sites\n    Git-based CMS is usually used to build static sites like landing pages where the changes do not need to be updated every time.\n-  Content queries can be limited \n\n## Contentrain Headless CMS\n\nContentrain leverages the power of git to produce a great tool targeted not just at developers but also at tech associates to easily build websites for their products without the need of a developer at all. \nDue to the decoupled infrastructure of headless cms, contentrain is highly secure and very performant as it supports all SSG(static site generator) frameworks you can think about which include Nuxt, Next, Vue, React, HUGO, Jekyll, and more. \n\n\n## Why you should use Contentrain?\n\nYou do not have to be skilled at developing, to build a platform presence for your products. You can be a blogger, and a marketer and yet can build your website without code. \n\nContentrain has a very intuitive user interface and experience, so you do not need any help getting started on creating projects.\n\nWith the power of git, you can have partners work on your project seamlessly with any role.\n\nYour frontend renders almost immediately upon change and you can add internationalization to your application easily. You do not have to go through the hassle of creating a JSON file to add internationalization.",
+    "slug": "git-based-vs-api-first-headless-cms",
+    "ID": "8c585e4d-aa19-4a20-9540-d7a9e382507c",
+    "tags": [
+      "gitbased",
+      "headless",
+      "cms",
+      "contentrain"
+    ],
+    "title": "Git-based vs API-first Headless CMS",
+    "layout": "$/layouts/post.astro",
+    "date": "2022-08-24",
+    "image": "https://imagedelivery.net/yx26LyQGM_miwnGU8RnEaw/431b1ca0-e392-4435-0bfa-54ab15446a00/public",
+    "author": "Godwin A. Ekainu",
+    "authorTwitter": "",
+    "category": "ecosystem",
+    "categories": [
+      "ecosystem"
+    ],
+    "createdAt": 1661350034307,
+    "updatedAt": 1661350121870
+  }
+]

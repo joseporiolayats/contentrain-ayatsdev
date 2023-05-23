@@ -1,0 +1,14 @@
+---
+import DefaultPageLayout from '$/layouts/default.astro'
+import MediaPreviewList from '$/components/MediaPreviewList.astro'
+import Media from '$/data/contentrain/media/media.json'
+
+let title = 'Videos & Screencasts';
+let description = 'All the great videos on Astro we could find for ya!'
+
+const allPosts = Media
+const sortedPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date))
+---
+<DefaultPageLayout content={{ title, description }}>
+    <MediaPreviewList posts={sortedPosts} />
+</DefaultPageLayout>

@@ -1,0 +1,51 @@
+[
+  {
+    "ID": "253bb5ff-94ae-4773-9ca0-4804c8f8d09f",
+    "navItems": [
+      {
+        "ID": "c000bfad-e8ea-4246-a796-a71b31bca4a8",
+        "path": "/",
+        "title": "home",
+        "createdAt": 1661352279266
+      },
+      {
+        "ID": "32fea2ae-1f46-4fe0-8329-95704c2f9ce7",
+        "path": "/blog",
+        "title": "blog",
+        "createdAt": 1661352290081
+      },
+      {
+        "ID": "168f80a4-9ca3-4eac-a63a-2ae263e64617",
+        "path": "/tags",
+        "title": "tags",
+        "createdAt": 1661352300325
+      },
+      {
+        "ID": "c36ed20e-61dd-4e86-9b4a-b10af346ffd6",
+        "path": "/media",
+        "title": "media",
+        "createdAt": 1661352309826
+      },
+      {
+        "ID": "96250951-3a30-4f69-b9a4-97c9226280fd",
+        "path": "/about",
+        "title": "about",
+        "createdAt": 1661352320048
+      }
+    ],
+    "site": {
+      "ID": "20009b5d-7ec0-493e-98ad-5c4dd38b7395",
+      "name": "Ink Contentrain",
+      "title": "Astro - Ink & Contentrain",
+      "description": "Crisp, minimal, personal blog theme for Astro and Contentrain",
+      "url": "https://astro-ink.vercel.app",
+      "githubUrl": "https://github.com/Contentrain/astro-blog-starter",
+      "listDrafts": true,
+      "createdAt": 1661352404376
+    },
+    "pageSize": 8,
+    "logo": "public/assets/1661352478642_logo.svg",
+    "createdAt": 1661352265256,
+    "updatedAt": 1661352480733
+  }
+]
