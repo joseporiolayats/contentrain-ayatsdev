@@ -110,5 +110,21 @@
     ],
     "createdAt": 1661350034307,
     "updatedAt": 1661350121870
+  },
+  {
+    "slug": "Start-up your python project fast!",
+    "description": "This is a checklist of the basic steps in order to create a reproducible, flexible, adaptable environment for any kind of python project that has venv and package management using Poetry",
+    "tags": [],
+    "ID": "b6ff8428-4aa5-4286-a362-569dbe3c7f06",
+    "title": "Template for any Python project",
+    "content": "## Project Structure\n\n* Create a new directory for your project.\n* Initialize a new Git repository in the project directory.\n\n## Poetry Setup\n\n* Install Poetry: `pip install poetry`\n* N﻿avigate into the directory of the project or create it\n* Activate the virtual environment: `poetry shell`\n* Initialize a new Poetry project: `poetry init`\n* Follow the prompts to configure your project.\n\n```toml\n[tool.poetry]\nname = \"project_name\"\nversion = \"0.1.0\"\ndescription = \"project_description\"\nauthors = [\"joseporiolayats <oriol.ayats@gmail.com>\"]\nlicense = \"MIT\"\nreadme = \"README.md\"\ndocumentation = \"https://joseporiolayats.github.io/my-github-repo\"\nrepository = \"https://github.com/joseporiolayats/my-github-repo\"\nkeywords = [\"tag1,\"tag2\",\"tag3\"]\npackages = [{include = \"project_name\" }]\n\n[tool.poetry.dependencies]\npython = \"^3.11\"\ncolorlog = \"^6.7.0\"\npython-decouple = \"^3.8\"\npymdown-extensions = \"^10.0.1\"\n\n[tool.poetry.group.test.dependencies]\nruff = \"^0.0.269\"\npytest = \"^7.3.1\"\npytest-asyncio = \"^0.21.0\"\n\n[tool.poetry.group.docs.dependencies]\nmkdocs = \"^1.4.3\"\nmkdocs-material = \"^9.1.14\"\nmkdocstrings-python = \"^1.0.0\"\n\n[tool.poetry.group.linst.dependencies]\nblack = \"^23.3.0\"\n\n[build-system]\nrequires = [\"poetry-core\"]\nbuild-backend = \"poetry.core.masonry.api\"\n```\n\n## Dependencies and Environment Management\n\n* Add project dependencies to `pyproject.toml` using the `[tool.poetry.dependencies]` section.\n* Install the project dependencies: `poetry install`\n* Update dependencies: `poetry update`\n\n## Version Control with GitHub\n\n* Create a new repository on GitHub.\n* Link the local Git repository to the remote repository: `git remote add origin <repository-url>`\n* Push the initial code to the remote repository: `git push -u origin main`\n\n## Code Quality and Pre-commit\n\n* Install pre-commit: `pip install pre-commit`\n* Create a `.pre-commit-config.yaml` file in the project root.\n* Configure pre-commit hooks to enforce code quality checks.\n* Run `pre-commit install` to enable the pre-commit hooks.\n\n## Project Documentation\n\n* Generate API documentation using MkDocs.\n* Add documentation files to the project, such as `README.md` and `docs/`.\n* Write clear and concise documentation for your project.\n\n## Continuous Integration and Testing\n\n* Set up continuous integration using tools like GitHub Actions or Travis CI.\n* Create test cases using a testing framework like PyTest.\n* Configure CI workflows to run tests automatically on every push.\n\n## Project Management and Task Tracking\n\n* Utilize project management tools like GitHub Projects or Trello.\n* Create tasks and track progress to stay organized.\n* Collaborate with team members effectively.",
+    "layout": "$/layouts/post.astro",
+    "date": "2023-05-23",
+    "image": "",
+    "author": "JosepOriol Ayats",
+    "authorTwitter": "joayats",
+    "category": "",
+    "categories": [],
+    "createdAt": 1684862078527
   }
 ]
